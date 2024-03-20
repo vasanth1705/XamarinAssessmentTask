@@ -1,0 +1,26 @@
+﻿<resources>
+    <string name="app_name">XamarinAssessmentTask</string>
+    <string name="login_text">Login</string>
+    <string name="login_btn_text">Log In</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="recharge_text">Recharge</string>
+    <string name="recharge_now_text">Recharge now</string>
+    <string name="history_text">History</string>
+    <string name="mobile_number_text">Mobile Number</string>
+    <string name="add_beneficiary_text">Add Beneficiary</string>
+    <string name="no_beneficiary_text">Beneficiary Not Found</string>
+    <string name="no_history_text">Payment History Not Found</string>
+    <string name="beneficiary_name_text">Beneficiary Name</string>
+    <string name="verified_text">Verify</string>
+    <string name="beneficiary_hint_text">Enter beneficiary name</string>
+    <string name="cc_placeholder">+9715</string>
+    <string name="mobile_placeholder">XXXXXXXX</string>
+    <string name="save_text">Save</string> 
+    <string name="available_topup_option">Available Top Up options</string>
+    <string name="proceed_text">Proceed</string>
+    <string name="placeholder_beneficiary">Beneficiary Name : </string>
+    <string name="placeholder_mobile">Mobile Number : </string>
+    <string name="rechare_to_text">Recharge to : </string>
+</resources>
+

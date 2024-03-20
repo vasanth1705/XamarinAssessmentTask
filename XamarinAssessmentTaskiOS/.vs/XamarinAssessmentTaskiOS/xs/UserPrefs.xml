@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{54CA322D-410E-4316-A392-D4581BC54C56}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinAssessmentTaskiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EBCFF6C5-11B8-400B-8B24-75B1DFA58630" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinAssessmentTaskiOS/ViewModels/AddBeneficiaryViewModel.cs">
+    <Files>
+      <File FileName="XamarinAssessmentTaskiOS/Database/PaymentDatabaseHelper.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Database/BeneficiaryDatabaseHelper.cs" Line="106" Column="35" />
+      <File FileName="XamarinAssessmentTaskiOS/Core/BaseViewController.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Enums/ValidatorEnum.cs" Line="8" Column="1" />
+      <File FileName="XamarinAssessmentTaskiOS/Models/BeneficiariesModel.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Models/PaymentModel.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Models/SaveBeneficiaryModel.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Utilities/CustomTextFieldDelegate.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Utilities/UserDefaultsHelper.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/ViewModels/AddBeneficiaryViewModel.cs" Line="35" Column="34" />
+      <File FileName="XamarinAssessmentTaskiOS/ViewModels/ChildBeneficiaryViewModel.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/ViewModels/HistoryViewModel.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/ViewModels/PaymentViewModel.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/ViewModels/RechargeViewModel.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/CustomCells/BeneficiaryCell.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/CustomCells/HistoryTableViewCell.cs" Line="33" Column="2" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/CustomCells/TopUpCollectionViewCell.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/ViewSources/BeneficiaryCollectionViewSource.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/ViewSources/HistoryTableViewSource.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/ViewSources/TopUpCollectionViewSource.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/AddBeneficiariesViewController.cs" Line="122" Column="75" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/BeneficiariesViewController.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/ChildBeneficiariesViewController.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/HistoryViewController.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/PaymentViewController.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/RechargeViewController.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/Views/ViewController.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/AppDelegate.cs" />
+      <File FileName="XamarinAssessmentTaskiOS/ViewModels/LoginViewModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinAssessmentTaskiOS" expanded="True">
+            <Node name="XamarinAssessmentTaskiOS">
+              <Node name="ViewModels">
+                <Node name="AddBeneficiaryViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views">
+                <Node name="CustomCells" expanded="True" />
+                <Node name="ViewSources" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

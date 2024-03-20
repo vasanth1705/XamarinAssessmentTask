@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryTableViewCell" rowHeight="190" id="cxk-wN-pdQ" customClass="HistoryTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="187"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="187"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ua9-at-qBB">
+                        <rect key="frame" x="16" y="8" width="333" height="171"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hq9-H8-yvs">
+                                <rect key="frame" x="16" y="16" width="301" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Number : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFo-4b-fcx">
+                                <rect key="frame" x="16" y="45" width="301" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Up Amount : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-T1-nm3">
+                                <rect key="frame" x="16" y="74" width="301" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recharge Fee : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Gi-Bzh">
+                                <rect key="frame" x="16" y="103" width="301" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Amount : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snm-bs-xdh">
+                                <rect key="frame" x="16" y="132" width="301" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Hq9-H8-yvs" secondAttribute="trailing" constant="16" id="4Y0-EO-6gg"/>
+                            <constraint firstItem="dgb-Gi-Bzh" firstAttribute="top" secondItem="wLx-T1-nm3" secondAttribute="bottom" constant="8" id="Ids-WP-pjQ"/>
+                            <constraint firstItem="Hq9-H8-yvs" firstAttribute="leading" secondItem="Ua9-at-qBB" secondAttribute="leading" constant="16" id="Lny-kk-G55"/>
+                            <constraint firstItem="dgb-Gi-Bzh" firstAttribute="leading" secondItem="Ua9-at-qBB" secondAttribute="leading" constant="16" id="Nq7-57-aLN"/>
+                            <constraint firstAttribute="trailing" secondItem="CFo-4b-fcx" secondAttribute="trailing" constant="16" id="Qkh-32-z2H"/>
+                            <constraint firstItem="Hq9-H8-yvs" firstAttribute="top" secondItem="Ua9-at-qBB" secondAttribute="top" constant="16" id="Sdz-TK-8aO"/>
+                            <constraint firstItem="Snm-bs-xdh" firstAttribute="top" secondItem="dgb-Gi-Bzh" secondAttribute="bottom" constant="8" id="Y87-ft-Sth"/>
+                            <constraint firstItem="CFo-4b-fcx" firstAttribute="top" secondItem="Hq9-H8-yvs" secondAttribute="bottom" constant="8" id="bcp-eu-O0R"/>
+                            <constraint firstAttribute="trailing" secondItem="dgb-Gi-Bzh" secondAttribute="trailing" constant="16" id="hyt-TD-zcL"/>
+                            <constraint firstItem="CFo-4b-fcx" firstAttribute="leading" secondItem="Ua9-at-qBB" secondAttribute="leading" constant="16" id="l5h-d2-Xoa"/>
+                            <constraint firstItem="wLx-T1-nm3" firstAttribute="top" secondItem="CFo-4b-fcx" secondAttribute="bottom" constant="8" id="mTX-OK-3wS"/>
+                            <constraint firstAttribute="trailing" secondItem="Snm-bs-xdh" secondAttribute="trailing" constant="16" id="pCS-Vu-jYA"/>
+                            <constraint firstItem="wLx-T1-nm3" firstAttribute="leading" secondItem="Ua9-at-qBB" secondAttribute="leading" constant="16" id="rLJ-HE-NZY"/>
+                            <constraint firstItem="Snm-bs-xdh" firstAttribute="leading" secondItem="Ua9-at-qBB" secondAttribute="leading" constant="16" id="tDS-3u-tof"/>
+                            <constraint firstAttribute="trailing" secondItem="wLx-T1-nm3" secondAttribute="trailing" constant="16" id="xkx-PL-dcY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Ua9-at-qBB" secondAttribute="bottom" constant="8" id="AW9-GX-iBz"/>
+                    <constraint firstItem="Ua9-at-qBB" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="16" id="Rxe-PE-cRF"/>
+                    <constraint firstItem="Ua9-at-qBB" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="8" id="jCL-LQ-I3A"/>
+                    <constraint firstAttribute="trailing" secondItem="Ua9-at-qBB" secondAttribute="trailing" constant="16" id="yOp-oB-GBs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="MainView" destination="Ua9-at-qBB" id="sSA-23-WNT"/>
+                <outlet property="MobileNumberLabel" destination="CFo-4b-fcx" id="YNl-Oa-dJp"/>
+                <outlet property="RechargeFeeLabel" destination="dgb-Gi-Bzh" id="jGJ-7i-ZCS"/>
+                <outlet property="TopUpAmountLabel" destination="wLx-T1-nm3" id="9BR-gs-D0Z"/>
+                <outlet property="TotalAmountLabel" destination="Snm-bs-xdh" id="x8i-BY-dg9"/>
+                <outlet property="UserNameLabel" destination="Hq9-H8-yvs" id="kSr-du-lNB"/>
+            </connections>
+            <point key="canvasLocation" x="-60.305343511450381" y="36.971830985915496"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{436D34BA-C343-4D72-A255-20F72CAC5FC5}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.6" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_API_33_arm64-v8a" />
+  <MonoDevelop.Ide.ItemProperties.XamarinAssessmentTask PreferredExecutionTarget="Android.Pixel_3a_API_33_arm64-v8a" AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="AppTheme" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="XamarinAssessmentTask/Adapters/TabAdapter.cs" />
+      <File FileName="XamarinAssessmentTask/Enums/ValidatorEnum.cs" Line="8" Column="28" />
+      <File FileName="XamarinAssessmentTask/Database/BeneficiaryDatabaseHelper.cs" Line="107" Column="25" />
+      <File FileName="XamarinAssessmentTask/Database/PaymentDatabaseHelper.cs" />
+      <File FileName="XamarinAssessmentTask/Models/PaymentModel.cs" />
+      <File FileName="XamarinAssessmentTask/Models/SaveBeneficiaryModel.cs" />
+      <File FileName="XamarinAssessmentTask/ViewModels/LoginViewModel.cs" />
+      <File FileName="XamarinAssessmentTask/Adapters/BeneficiaryAdapter.cs" />
+      <File FileName="XamarinAssessmentTask/Adapters/TopupAdapter.cs" />
+      <File FileName="XamarinAssessmentTask/Views/Activities/PaymentActivity.cs" />
+      <File FileName="XamarinAssessmentTask/Resources/values/strings.xml" Line="6" Column="23" />
+      <File FileName="XamarinAssessmentTask/Resources/layout/activity_benficiary_recharge.xml" />
+      <File FileName="XamarinAssessmentTask/Resources/layout/activity_payment.xml" Line="58" Column="1" />
+      <File FileName="XamarinAssessmentTask/Views/Activities/AddBeneficiaryActivity.cs" Line="192" Column="65" />
+      <File FileName="XamarinAssessmentTask/ViewModels/AddBeneficiaryViewModel.cs" Line="32" Column="90" />
+      <File FileName="XamarinAssessmentTask/Resources/layout/activity_main.xml" Line="55" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinAssessmentTask" expanded="True">
+            <Node name="XamarinAssessmentTask" selected="True">
+              <Node name="Adapters" expanded="True" />
+              <Node name="Database" expanded="True" />
+              <Node name="Enums" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+              <Node name="Utilities" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Activities" expanded="True" />
+                <Node name="Fragments" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

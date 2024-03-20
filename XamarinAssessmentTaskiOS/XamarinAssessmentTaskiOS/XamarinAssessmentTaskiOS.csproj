@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+        <ProjectGuid>{54CA322D-410E-4316-A392-D4581BC54C56}</ProjectGuid>
+        <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <TemplateGuid>{edc1b0fa-90cd-4038-8fad-98fe74adb368}</TemplateGuid>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>XamarinAssessmentTaskiOS</RootNamespace>
+        <AssemblyName>XamarinAssessmentTaskiOS</AssemblyName>
+        <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+        <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+        <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+        <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+        <ProvisioningType>automatic</ProvisioningType>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>portable</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+        <DefineConstants>DEBUG</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <MtouchArch>x86_64</MtouchArch>
+        <MtouchLink>None</MtouchLink>
+        <MtouchDebug>true</MtouchDebug>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+        <DebugType>none</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <MtouchLink>None</MtouchLink>
+        <MtouchArch>x86_64</MtouchArch>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>portable</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\iPhone\Debug</OutputPath>
+        <DefineConstants>DEBUG</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <MtouchArch>ARM64</MtouchArch>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchDebug>true</MtouchDebug>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+        <DebugType>none</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\iPhone\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+        <MtouchArch>ARM64</MtouchArch>
+        <CodesignKey>iPhone Developer</CodesignKey>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Xml" />
+        <Reference Include="System.Core" />
+        <Reference Include="Xamarin.iOS" />
+        <Reference Include="System.Numerics" />
+        <Reference Include="System.Numerics.Vectors" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+      <PackageReference Include="SQLite.Net-PCL">
+        <Version>3.1.1</Version>
+      </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+            <Visible>false</Visible>
+        </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\verified.imageset\verified.png" />
+        <ImageAsset Include="Assets.xcassets\verified.imageset\Contents.json" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Resources\" />
+        <Folder Include="Views\" />
+        <Folder Include="Database\" />
+        <Folder Include="Models\" />
+        <Folder Include="ViewModels\" />
+        <Folder Include="Utilities\" />
+        <Folder Include="Views\CustomCells\" />
+        <Folder Include="Enums\" />
+        <Folder Include="Core\" />
+        <Folder Include="Views\ViewSources\" />
+    </ItemGroup>
+    <ItemGroup>
+        <InterfaceDefinition Include="LaunchScreen.storyboard" />
+        <InterfaceDefinition Include="Main.storyboard" />
+        <InterfaceDefinition Include="Views\CustomCells\BeneficiaryCell.xib" />
+        <InterfaceDefinition Include="Views\CustomCells\TopUpCollectionViewCell.xib" />
+        <InterfaceDefinition Include="Views\CustomCells\HistoryTableViewCell.xib" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Info.plist" />
+        <None Include="Entitlements.plist" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Main.cs" />
+        <Compile Include="AppDelegate.cs" />
+        <Compile Include="SceneDelegate.cs" />
+        <Compile Include="Views\ViewController.cs" />
+        <Compile Include="Views\ViewController.designer.cs">
+          <DependentUpon>ViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Views\BeneficiariesViewController.cs" />
+        <Compile Include="Views\BeneficiariesViewController.designer.cs">
+          <DependentUpon>BeneficiariesViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Views\AddBeneficiariesViewController.cs" />
+        <Compile Include="Views\AddBeneficiariesViewController.designer.cs">
+          <DependentUpon>AddBeneficiariesViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Database\BeneficiaryDatabaseHelper.cs" />
+        <Compile Include="Models\BeneficiariesModel.cs" />
+        <Compile Include="ViewModels\AddBeneficiaryViewModel.cs" />
+        <Compile Include="Views\RechargeViewController.cs" />
+        <Compile Include="Views\RechargeViewController.designer.cs">
+          <DependentUpon>RechargeViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Views\ChildBeneficiariesViewController.cs" />
+        <Compile Include="Views\ChildBeneficiariesViewController.designer.cs">
+          <DependentUpon>ChildBeneficiariesViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Views\HistoryViewController.cs" />
+        <Compile Include="Views\HistoryViewController.designer.cs">
+          <DependentUpon>HistoryViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Utilities\CustomTextFieldDelegate.cs" />
+        <Compile Include="Views\CustomCells\BeneficiaryCell.cs" />
+        <Compile Include="Views\CustomCells\BeneficiaryCell.designer.cs">
+          <DependentUpon>BeneficiaryCell.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Views\CustomCells\TopUpCollectionViewCell.cs" />
+        <Compile Include="Views\CustomCells\TopUpCollectionViewCell.designer.cs">
+          <DependentUpon>TopUpCollectionViewCell.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Views\PaymentViewController.cs" />
+        <Compile Include="Views\PaymentViewController.designer.cs">
+          <DependentUpon>PaymentViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Models\PaymentModel.cs" />
+        <Compile Include="Enums\ValidatorEnum.cs" />
+        <Compile Include="Core\BaseViewController.cs" />
+        <Compile Include="ViewModels\ChildBeneficiaryViewModel.cs" />
+        <Compile Include="ViewModels\RechargeViewModel.cs" />
+        <Compile Include="Models\SaveBeneficiaryModel.cs" />
+        <Compile Include="ViewModels\PaymentViewModel.cs" />
+        <Compile Include="Database\PaymentDatabaseHelper.cs" />
+        <Compile Include="Utilities\UserDefaultsHelper.cs" />
+        <Compile Include="Views\CustomCells\HistoryTableViewCell.cs" />
+        <Compile Include="Views\CustomCells\HistoryTableViewCell.designer.cs">
+          <DependentUpon>HistoryTableViewCell.cs</DependentUpon>
+        </Compile>
+        <Compile Include="ViewModels\HistoryViewModel.cs" />
+        <Compile Include="Views\ViewSources\BeneficiaryCollectionViewSource.cs" />
+        <Compile Include="Views\ViewSources\HistoryTableViewSource.cs" />
+        <Compile Include="Views\ViewSources\TopUpCollectionViewSource.cs" />
+        <Compile Include="ViewModels\LoginViewModel.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>
